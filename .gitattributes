@@ -1,0 +1,8 @@
+# Handle all text files automatically
+* text=auto
+
+
+echo "* text=auto" > .gitattributes
+echo "*.js text eol=lf" >> .gitattributes
+echo "*.sh text eol=lf" >> .gitattributes
+echo "*.bat text eol=crlf" >> .gitattributes
